@@ -7,7 +7,7 @@
 }
 
 .v-vaadin-version:after {
-	content: "7.1.10";
+	content: "7.1.11";
 }
 
 .v-generated-body {
@@ -1321,6 +1321,10 @@ body .mytheme.v-app .v-app-loading {
 	overflow: auto;
 	font-size: 0;
 	line-height: normal;
+}
+
+.v-ff .mytheme .v-scrollable {
+	font-size: 12px;
 }
 
 .v-ios.v-webkit .mytheme .v-scrollable {

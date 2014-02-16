@@ -1,0 +1,2 @@
+# Module com.jukkanikki.vaadincloudapp.AppWidgetSet
+# RPC service class, partial path of RPC policy file
