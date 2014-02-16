@@ -1,4 +1,4 @@
-package vaadin-cloudapp;
+package com.jukkanikki.vaadincloudapp;
 
 import javax.servlet.annotation.WebServlet;
 
@@ -18,7 +18,7 @@ public class MyVaadinUI extends UI
 {
 
     @WebServlet(value = "/*", asyncSupported = true)
-    @VaadinServletConfiguration(productionMode = false, ui = MyVaadinUI.class, widgetset = "vaadin-cloudapp.AppWidgetSet")
+    @VaadinServletConfiguration(productionMode = false, ui = MyVaadinUI.class, widgetset = "com.jukkanikki.vaadincloudapp.AppWidgetSet")
     public static class Servlet extends VaadinServlet {
     }
 
