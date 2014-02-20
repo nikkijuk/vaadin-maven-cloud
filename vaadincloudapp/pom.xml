@@ -20,8 +20,8 @@
 		<jelastic.context>vaadincloudapp</jelastic.context>
 		<jelastic.comment>Jelastic deployed vaadin app</jelastic.comment>
 		<jelastic.api_hoster>app.jelastic.servint.net</jelastic.api_hoster>
-	
 	</properties>
+
 	<repositories>
 		<repository>
 			<id>vaadin-addons</id>
